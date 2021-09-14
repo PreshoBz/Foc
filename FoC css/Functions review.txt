@@ -1,0 +1,100 @@
+#include <iostream>
+
+using namespace std;
+
+double getTotal(double num1, double num2);
+
+int main()
+{
+    double x= 2.3;
+    double y = 4.9;
+    double result = getTotal(x,y);
+    cout << "The total is " << result;
+    return 0;
+}
+
+double getTotal(double num1, double num2)
+{
+    double total = num1 + num2;
+    return total;
+    return 0;
+}
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+void printResult(int num);
+
+/* Main program */
+
+int main()
+{
+	printResult(even);
+	retun 0;
+}
+
+void printResult(int num)
+{	
+	if (num % 2 == 0)
+	cout << "This number is even";
+} 
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int findAverage(int num1, int num2);
+
+int main()
+{
+        int x = 4;
+        int y = 5;
+        int result = findAverage(x,y);
+        cout<< "The average is" << result;
+        return 0;
+}
+
+int findAverage(int num1, int num2)
+{
+    int total = num1 + num2;
+    int average = total / 2;
+    return average;
+}
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+double findMaximun(double x, double y);
+
+int main()
+{
+    double num1=40.2;
+    double num2=40.9;
+    double result;
+
+    result = max (num1, num2);
+    cout << "The maximum is " << result;
+    return 0;
+}
+
+double findMaximun(double x, double y)
+{
+
+    double max = x;
+    if (x < y)
+       max = y;
+    return max;
+}
